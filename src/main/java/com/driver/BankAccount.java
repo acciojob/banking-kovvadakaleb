@@ -29,7 +29,7 @@ public class BankAccount {
         if(digitSum!=sum){
             throw new Exception("Account Number can not be generated");
         }
-        return String.valueOf(accountNumber);
+        return null;
     }
 
     public void deposit(double amount) {
